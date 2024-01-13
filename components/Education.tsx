@@ -27,7 +27,7 @@ export default function Education() {
 
               <div className="flex flex-col mt-3 gap-1">
                 <p className="text-small text-foreground/50">
-                  Graduated with a Bachelor's degree in Business Administration
+                  Graduated with a Bachelor&apos; s degree in Business Administration
                   with a major in Information Technology. Developed a strong
                   foundation in programming languages and data structures,
                   enhancing analytical and problem-solving skills. Acquired
