@@ -2,7 +2,7 @@ import React from "react";
 import { Card, CardBody } from "@nextui-org/react";
 import { GoArrowUpRight } from "react-icons/go";
 import Link from "next/link";
-import {Chip} from "@nextui-org/react";
+import { Chip } from "@nextui-org/react";
 export default function Education() {
   return (
     <div className="mt-16">
@@ -38,16 +38,28 @@ export default function Education() {
               </div>
 
               <div className="flex w-full mt-4 gap-x-2">
-                <Chip className="text-secondary bg-secondary/10 border-none" variant="faded">
+                <Chip
+                  className="text-secondary bg-secondary/10 border-none"
+                  variant="faded"
+                >
                   Python
                 </Chip>
-                <Chip className="text-secondary bg-secondary/10 border-none" variant="faded">
+                <Chip
+                  className="text-secondary bg-secondary/10 border-none"
+                  variant="faded"
+                >
                   JavaScript
                 </Chip>
-                <Chip className="text-secondary bg-secondary/10 border-none" variant="faded">
+                <Chip
+                  className="text-secondary bg-secondary/10 border-none"
+                  variant="faded"
+                >
                   OOP
                 </Chip>
-                <Chip className="text-secondary bg-secondary/10 border-none" variant="faded">
+                <Chip
+                  className="text-secondary bg-secondary/10 border-none"
+                  variant="faded"
+                >
                   SQL
                 </Chip>
               </div>
