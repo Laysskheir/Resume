@@ -1,16 +1,12 @@
 import React from "react";
-import { Button, Card, CardBody, Chip } from "@nextui-org/react";
+import { Chip } from "@nextui-org/react";
 import Image from "next/image";
 
 export default function Projects() {
   return (
     <div className="mt-16">
-      <Card
-        isBlurred
-        className="border-none mt-4 group transition ease-in-out rounded-md p-4 hover:bg-foreground/10 cursor-pointer max-w-[610px]"
-        shadow="sm"
-      >
-        <CardBody>
+      <div className="border-none mt-4 group transition ease-in-out rounded-md p-4 hover:bg-foreground/10 cursor-pointer max-w-[610px]">
+        <div>
           <div className="grid grid-cols-6 md:grid-cols-12 gap-6 md:gap-4 items-center justify-center">
             <div className="relative aspect-video text-center col-span-6 md:col-span-4">
               <Image
@@ -67,14 +63,10 @@ export default function Projects() {
               </div>
             </div>
           </div>
-        </CardBody>
-      </Card>
-      <Card
-        isBlurred
-        className="border-none mt-4 group transition ease-in-out rounded-lg p-4 hover:bg-foreground/10 cursor-pointer max-w-[610px]"
-        shadow="sm"
-      >
-        <CardBody>
+        </div>
+      </div>
+      <div className="border-none mt-4 group transition ease-in-out rounded-lg p-4 hover:bg-foreground/10 cursor-pointer max-w-[610px]">
+        <div>
           <div className="grid grid-cols-6 md:grid-cols-12 gap-6 md:gap-4 items-center justify-center">
             <div className="relative aspect-video col-span-6 md:col-span-4">
               <Image
@@ -126,8 +118,8 @@ export default function Projects() {
               </div>
             </div>
           </div>
-        </CardBody>
-      </Card>
+        </div>
+      </div>
     </div>
   );
 }

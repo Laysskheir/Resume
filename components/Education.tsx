@@ -1,17 +1,14 @@
 import React from "react";
-import { Card, CardBody } from "@nextui-org/react";
 import { GoArrowUpRight } from "react-icons/go";
 import Link from "next/link";
 import { Chip } from "@nextui-org/react";
 export default function Education() {
   return (
     <div className="mt-16">
-      <Card
-        isBlurred
+      <div
         className="border-none mt-4 group transition ease-in-out rounded-md p-4 hover:bg-foreground/10 cursor-pointer max-w-[610px]"
-        shadow="sm"
       >
-        <CardBody>
+        <div>
           <div className="grid grid-cols-6 md:grid-cols-12 gap-6 md:gap-4 items-center justify-center">
             <div className="relative text-center col-span-6 md:col-span-4">
               <p>2019 -- 2022</p>
@@ -65,8 +62,8 @@ export default function Education() {
               </div>
             </div>
           </div>
-        </CardBody>
-      </Card>
+        </div>
+      </div>
 
       <div className="flex flex-row gap-x-2 mt-4 group hover:text-secondary transition ease-in-out cursor-pointer items-center">
         <Link
