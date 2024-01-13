@@ -42,13 +42,15 @@ export default function Sidepage() {
     <div className="absolute p-8 m-0 bg-primary text-white laptop:fixed tablet:w-[600px] laptop:p-32">
       <div className="flex flex-col relative">
         {/* Info */}
-        <div className="mb-16">
-          <h1 className="text-5xl font-bold mb-2">Layss Kheir</h1>
-          <h2 className="text-xl font-semibold text-gray-300 mb-4">
-            Software Engineer
+        <div className="mb-8">
+          <h1 className="text-4xl font-bold mb-2">Layss Kheir</h1>
+          <h2 className="text-lg font-semibold text-gray-300 mb-2">
+            Passionate Software Engineer
           </h2>
-          <p className="text-foreground w-full md:w-1/2">
-            I build pixel-perfect, accessible products for the web and beyond.
+          <p className="text-foreground w-full ">
+            I am dedicated to crafting innovative and user-friendly web
+            solutions. With a strong foundation in software engineering, I bring
+            ideas to life, one line of code at a time.
           </p>
         </div>
 
