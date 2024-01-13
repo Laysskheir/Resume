@@ -1,7 +1,8 @@
 import React from "react";
-import { Button, Card, CardBody } from "@nextui-org/react";
+import { Card, CardBody } from "@nextui-org/react";
 import { GoArrowUpRight } from "react-icons/go";
 import Link from "next/link";
+import {Chip} from "@nextui-org/react";
 export default function Education() {
   return (
     <div className="mt-16">
@@ -37,18 +38,18 @@ export default function Education() {
               </div>
 
               <div className="flex w-full mt-4 gap-x-2">
-                <button className="rounded-full text-secondary bg-secondary/10 text-sm px-2 py-1 font-semibold">
+                <Chip className="text-secondary bg-secondary/10 border-none" variant="faded">
                   Python
-                </button>
-                <button className="rounded-full text-secondary bg-secondary/10 text-sm px-2 py-1 font-semibold">
+                </Chip>
+                <Chip className="text-secondary bg-secondary/10 border-none" variant="faded">
                   JavaScript
-                </button>
-                <button className="rounded-full text-secondary bg-secondary/10 text-sm px-2 py-1 font-semibold">
+                </Chip>
+                <Chip className="text-secondary bg-secondary/10 border-none" variant="faded">
                   OOP
-                </button>
-                <button className="rounded-full text-secondary bg-secondary/10 text-sm px-2 py-1 font-semibold">
-                  PostgreSQL
-                </button>
+                </Chip>
+                <Chip className="text-secondary bg-secondary/10 border-none" variant="faded">
+                  SQL
+                </Chip>
               </div>
             </div>
           </div>

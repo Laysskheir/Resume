@@ -1,5 +1,5 @@
 import React from "react";
-import { Button, Card, CardBody } from "@nextui-org/react";
+import { Button, Card, CardBody, Chip } from "@nextui-org/react";
 import Image from "next/image";
 
 export default function Projects() {
@@ -39,22 +39,31 @@ export default function Projects() {
               </div>
 
               <div className="flex w-full mt-4 gap-x-2">
-                <button className="rounded-full text-secondary bg-secondary/10 text-sm px-2 py-1 font-semibold">
+                <Chip
+                  className="text-secondary bg-secondary/10 border-none"
+                  variant="faded"
+                >
                   Django
-                </button>
+                </Chip>
 
-                <button className="rounded-full text-secondary bg-secondary/10 text-sm px-2 py-1 font-semibold">
+                <Chip
+                  className="text-secondary bg-secondary/10 border-none"
+                  variant="faded"
+                >
                   Next.js
-                </button>
-                <button className="rounded-full text-secondary bg-secondary/10 text-sm px-2 py-1 font-semibold">
+                </Chip>
+                <Chip
+                  className="text-secondary bg-secondary/10 border-none"
+                  variant="faded"
+                >
                   Docker
-                </button>
-                <button className="rounded-full text-secondary bg-secondary/10 text-sm px-2 py-1 font-semibold">
+                </Chip>
+                <Chip
+                  className="text-secondary bg-secondary/10 border-none"
+                  variant="faded"
+                >
                   Celery
-                </button>
-                <button className="rounded-full text-secondary bg-secondary/10 text-sm px-2 py-1 font-semibold">
-                  Redis
-                </button>
+                </Chip>
               </div>
             </div>
           </div>
@@ -94,19 +103,26 @@ export default function Projects() {
               </div>
 
               <div className="flex w-full mt-4 gap-x-2">
-                <button className="rounded-full text-secondary bg-secondary/10 text-sm px-2 py-1 font-semibold">
+                <Chip
+                  className="text-secondary bg-secondary/10 border-none"
+                  variant="faded"
+                >
                   Next.js
-                </button>
+                </Chip>
 
-                <button className="rounded-full text-secondary bg-secondary/10 text-sm px-2 py-1 font-semibold">
+                <Chip
+                  className="text-secondary bg-secondary/10 border-none"
+                  variant="faded"
+                >
                   Prisma
-                </button>
-                <button className="rounded-full text-secondary bg-secondary/10 text-sm px-2 py-1 font-semibold">
-                  TypeScript
-                </button>
-                <button className="rounded-full text-secondary bg-secondary/10 text-sm px-2 py-1 font-semibold">
+                </Chip>
+
+                <Chip
+                  className="text-secondary bg-secondary/10 border-none"
+                  variant="faded"
+                >
                   Tailwind
-                </button>
+                </Chip>
               </div>
             </div>
           </div>
