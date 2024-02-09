@@ -1,10 +1,64 @@
 import React from "react";
-import { Chip } from "@nextui-org/react";
+import { Chip, Link } from "@nextui-org/react";
 import Image from "next/image";
 
 export default function Projects() {
   return (
     <div className="mt-16">
+      <div className="border-none mt-4 group transition ease-in-out rounded-lg p-4 hover:bg-foreground/10 cursor-pointer max-w-[610px]">
+        <Link href="https://python-front.vercel.app/">
+          <div className="grid grid-cols-6 md:grid-cols-12 gap-6 md:gap-4 items-center justify-center">
+            <div className="relative aspect-video col-span-6 md:col-span-4">
+              <Image
+                alt="Project cover"
+                className="object-cover rounded-md"
+                fill
+                src="/3.png"
+              />
+            </div>
+
+            <div className="flex flex-col col-span-6 md:col-span-8">
+              <div className="flex flex-col gap-0">
+                <h1 className="text-large font-medium mt-2 text-white group-hover:text-secondary">
+                  Python Mastery
+                </h1>
+              </div>
+
+              <div className="flex flex-col mt-3 gap-1">
+                <p className="text-small text-foreground/50">
+                  A comprehensive learning platform for mastering Python
+                  programming through tutorials, lessons, and coding challenges.
+                  Engage with interactive content, track your progress, and
+                  collaborate with a community of learners.
+                </p>
+              </div>
+
+              <div className="flex w-full mt-4 gap-x-2">
+                <Chip
+                  className="text-secondary bg-secondary/10 border-none"
+                  variant="faded"
+                >
+                  Next.js
+                </Chip>
+
+                <Chip
+                  className="text-secondary bg-secondary/10 border-none"
+                  variant="faded"
+                >
+                  Django
+                </Chip>
+
+                <Chip
+                  className="text-secondary bg-secondary/10 border-none"
+                  variant="faded"
+                >
+                  Tailwind
+                </Chip>
+              </div>
+            </div>
+          </div>
+        </Link>
+      </div>
       <div className="border-none mt-4 group transition ease-in-out rounded-md p-4 hover:bg-foreground/10 cursor-pointer max-w-[610px]">
         <div>
           <div className="grid grid-cols-6 md:grid-cols-12 gap-6 md:gap-4 items-center justify-center">
@@ -109,66 +163,6 @@ export default function Projects() {
                   Prisma
                 </Chip>
 
-                <Chip
-                  className="text-secondary bg-secondary/10 border-none"
-                  variant="faded"
-                >
-                  Tailwind
-                </Chip>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div className="border-none mt-4 group transition ease-in-out rounded-lg p-4 hover:bg-foreground/10 cursor-pointer max-w-[610px]">
-        <div>
-          <div className="grid grid-cols-6 md:grid-cols-12 gap-6 md:gap-4 items-center justify-center">
-            <div className="relative aspect-video col-span-6 md:col-span-4">
-              <Image
-                alt="Project cover"
-                className="object-cover rounded-md"
-                fill
-                src="/3.png"
-              />
-            </div>
-
-            <div className="flex flex-col col-span-6 md:col-span-8">
-              <div className="flex flex-col gap-0">
-                <h1 className="text-large font-medium mt-2 text-white group-hover:text-secondary">
-                  Python Mastery
-                </h1>
-              </div>
-
-              <div className="flex flex-col mt-3 gap-1">
-                <p className="text-small text-foreground/50">
-                  A comprehensive learning platform for mastering Python
-                  programming through tutorials, lessons, and coding challenges.
-                  Engage with interactive content, track your progress, and
-                  collaborate with a community of learners.
-                </p>
-              </div>
-
-              <div className="flex w-full mt-4 gap-x-2">
-                <Chip
-                  className="text-secondary bg-secondary/10 border-none"
-                  variant="faded"
-                >
-                  Next.js
-                </Chip>
-
-                <Chip
-                  className="text-secondary bg-secondary/10 border-none"
-                  variant="faded"
-                >
-                  Django
-                </Chip>
-
-                <Chip
-                  className="text-secondary bg-secondary/10 border-none"
-                  variant="faded"
-                >
-                  PostgreSQL
-                </Chip>
                 <Chip
                   className="text-secondary bg-secondary/10 border-none"
                   variant="faded"
