@@ -4,7 +4,7 @@ export default function About() {
   return (
     <div>
       <div className="text-foreground">
-        <div className="space-y-4">
+        <div className="my-4">
           <p>
             Experienced Software Engineer specializing in{" "}
             <span className="text-white font-semibold hover:text-secondary cursor-pointer">
