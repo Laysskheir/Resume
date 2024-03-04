@@ -10,7 +10,7 @@ export default function Sidepage() {
 
       if (element) {
         window.scrollTo({
-          top: element.offsetTop + 100,
+          top: element.offsetTop + 200,
           behavior: "smooth",
         });
       }
@@ -21,7 +21,7 @@ export default function Sidepage() {
 
       if (element) {
         window.scrollTo({
-          top: element.offsetTop + 300,
+          top: element.offsetTop + 500,
           behavior: "smooth",
         });
       }
@@ -45,12 +45,13 @@ export default function Sidepage() {
         <div className="mb-8">
           <h1 className="text-4xl font-bold mb-2">Layss Kheir</h1>
           <h2 className="text-lg font-semibold text-gray-300 mb-2">
-            Passionate Software Engineer
+            Software Engineer
           </h2>
           <p className="text-foreground w-full ">
-            I am dedicated to crafting innovative and user-friendly web
-            solutions. With a strong foundation in software engineering, I bring
-            ideas to life, one line of code at a time.
+            I am a motivated software developer with over 2 years of experience
+            building web applications using various technologies. My experience
+            includes projects in augmented reality and REST API development. I
+            am passionate about ai and always eager to learn new things.
           </p>
         </div>
 
