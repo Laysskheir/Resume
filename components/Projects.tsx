@@ -60,7 +60,7 @@ export default function Projects() {
         </Link>
       </div>
       <div className="border-none mt-4 group transition ease-in-out rounded-md p-4 hover:bg-foreground/10 cursor-pointer max-w-[610px]">
-        <div>
+        <Link href="https://great-iota.vercel.app/">
           <div className="grid grid-cols-6 md:grid-cols-12 gap-6 md:gap-4 items-center justify-center">
             <div className="relative aspect-video text-center col-span-6 md:col-span-4">
               <Image
@@ -117,7 +117,7 @@ export default function Projects() {
               </div>
             </div>
           </div>
-        </div>
+        </Link>
       </div>
       <div className="border-none mt-4 group transition ease-in-out rounded-lg p-4 hover:bg-foreground/10 cursor-pointer max-w-[610px]">
         <div>
