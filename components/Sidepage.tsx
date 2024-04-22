@@ -48,10 +48,9 @@ export default function Sidepage() {
             Software Engineer
           </h2>
           <p className="text-foreground w-full ">
-            I am a motivated software developer with over 2 years of experience
-            building web applications using various technologies. My experience
-            includes projects in augmented reality and REST API development. I
-            am passionate about ai and always eager to learn new things.
+            I am a motivated full-stack developer with 2+ years of experience in
+            web app development. Currently refining my freelancing business and
+            staying abreast of emerging technologies.
           </p>
         </div>
 

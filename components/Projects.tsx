@@ -6,7 +6,7 @@ export default function Projects() {
   return (
     <div className="mt-16">
       <div className="border-none mt-4 group transition ease-in-out rounded-lg p-4 hover:bg-foreground/10 cursor-pointer max-w-[610px]">
-        <Link href="https://python-front.vercel.app/">
+        <Link href="https://python-front.vercel.app">
           <div className="grid grid-cols-6 md:grid-cols-12 gap-6 md:gap-4 items-center justify-center">
             <div className="relative aspect-video col-span-6 md:col-span-4">
               <Image
@@ -38,14 +38,15 @@ export default function Projects() {
                   className="text-secondary bg-secondary/10 border-none"
                   variant="faded"
                 >
-                  Next.js
+                  Django
+                  
                 </Chip>
 
                 <Chip
                   className="text-secondary bg-secondary/10 border-none"
                   variant="faded"
                 >
-                  Django
+                  Next.js
                 </Chip>
 
                 <Chip
@@ -118,6 +119,69 @@ export default function Projects() {
             </div>
           </div>
         </Link>
+      </div>
+      <div className="border-none mt-4 group transition ease-in-out rounded-lg p-4 hover:bg-foreground/10 cursor-pointer max-w-[610px]">
+        <div>
+        <Link href="https://wait-art.vercel.app">
+          <div className="grid grid-cols-6 md:grid-cols-12 gap-6 md:gap-4 items-center justify-center">
+            <div className="relative aspect-video col-span-6 md:col-span-4">
+              <Image
+                alt="Project cover"
+                className="object-cover rounded-md"
+                fill
+                src="/4.png"
+              />
+            </div>
+            
+
+            <div className="flex flex-col col-span-6 md:col-span-8">
+              <div className="flex flex-col gap-0">
+                <h1 className="text-large font-medium mt-2 text-white group-hover:text-secondary">
+                  WaitArt
+                </h1>
+              </div>
+
+              <div className="flex flex-col mt-3 gap-1">
+                <p className="text-small text-foreground/50">
+                  Engineered an intuitive platform enabling custom waitlist
+                  forms in 20 seconds, enhancing lead capture and product
+                  anticipation. Resulted in streamlined processes, optimized
+                  conversion rates, and heightened client launch excitement.
+                </p>
+              </div>
+
+              <div className="flex w-full mt-4 gap-x-2">
+                <Chip
+                  className="text-secondary bg-secondary/10 border-none"
+                  variant="faded"
+                >
+                  Next.js
+                </Chip>
+
+                <Chip
+                  className="text-secondary bg-secondary/10 border-none"
+                  variant="faded"
+                >
+                  Prisma
+                </Chip>
+
+                <Chip
+                  className="text-secondary bg-secondary/10 border-none"
+                  variant="faded"
+                >
+                  Tailwind
+                </Chip>
+                <Chip
+                  className="text-secondary bg-secondary/10 border-none"
+                  variant="faded"
+                >
+                  Next-Auth
+                </Chip>
+              </div>
+            </div>
+          </div>
+          </Link>
+        </div>
       </div>
       <div className="border-none mt-4 group transition ease-in-out rounded-lg p-4 hover:bg-foreground/10 cursor-pointer max-w-[610px]">
         <div>
