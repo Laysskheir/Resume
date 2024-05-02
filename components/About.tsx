@@ -2,7 +2,7 @@ import React from "react";
 
 export default function About() {
   return (
-    <div>
+    <div id="about-section">
       <div className="text-foreground">
         <div className="my-4">
           <p>

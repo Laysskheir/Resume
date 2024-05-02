@@ -4,7 +4,7 @@ import Image from "next/image";
 
 export default function Projects() {
   return (
-    <div className="mt-16">
+    <div className="mt-16" id="projects-section">
       <div className="border-none mt-4 group transition ease-in-out rounded-lg p-4 hover:bg-foreground/10 cursor-pointer max-w-[610px]">
         <Link href="https://python-front.vercel.app">
           <div className="grid grid-cols-6 md:grid-cols-12 gap-6 md:gap-4 items-center justify-center">

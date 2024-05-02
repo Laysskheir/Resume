@@ -4,39 +4,7 @@ import React from "react";
 import { FaWhatsapp, FaLinkedin, FaGithub } from "react-icons/fa";
 
 export default function Sidepage() {
-  const handleScrollToElement = (elementId: any) => {
-    if (elementId === "EducationId") {
-      const element = document.getElementById(elementId);
-
-      if (element) {
-        window.scrollTo({
-          top: element.offsetTop + 200,
-          behavior: "smooth",
-        });
-      }
-    }
-
-    if (elementId === "ProjectsId") {
-      const element = document.getElementById(elementId);
-
-      if (element) {
-        window.scrollTo({
-          top: element.offsetTop + 500,
-          behavior: "smooth",
-        });
-      }
-    }
-    if (elementId === "AboutId") {
-      const element = document.getElementById(elementId);
-
-      if (element) {
-        window.scrollTo({
-          top: element.offsetTop - 300,
-          behavior: "smooth",
-        });
-      }
-    }
-  };
+ 
 
   return (
     <div className="absolute p-8 m-0 bg-primary text-white laptop:fixed tablet:w-[600px] laptop:p-32">
@@ -57,35 +25,29 @@ export default function Sidepage() {
         {/* Sections */}
         <div className="mb-16">
           <div className="mb-6 cursor-pointer">
-            <div
-              className="relative flex items-center gap-x-4 transition duration-300 ease-in-out transform hover:opacity-80"
-              id="AboutId"
-              onClick={() => handleScrollToElement("AboutId")}
-            >
+            <div className="relative flex items-center gap-x-4 transition duration-300 ease-in-out transform hover:opacity-80">
               <span className="h-[0.5px] w-16 bg-white"></span>
-              <p className="text-sm font-semibold">About</p>
+              <Link href="#about-section" className="text-sm font-semibold">
+                About
+              </Link>
             </div>
           </div>
 
           <div className="mb-6 cursor-pointer">
-            <div
-              className="relative flex items-center gap-x-4 transition duration-300 ease-in-out transform hover:opacity-80"
-              id="EducationId"
-              onClick={() => handleScrollToElement("EducationId")}
-            >
+            <div className="relative flex items-center gap-x-4 transition duration-300 ease-in-out transform hover:opacity-80">
               <span className="h-[0.5px] w-16 bg-white"></span>
-              <p className="text-sm font-semibold">Education</p>
+              <Link href="#education-section" className="text-sm font-semibold">
+                Education
+              </Link>
             </div>
           </div>
 
           <div className="cursor-pointer">
-            <div
-              className="relative flex items-center gap-x-4 transition duration-300 ease-in-out transform hover:opacity-80"
-              id="ProjectsId"
-              onClick={() => handleScrollToElement("ProjectsId")}
-            >
+            <div className="relative flex items-center gap-x-4 transition duration-300 ease-in-out transform hover:opacity-80">
               <span className="h-[0.5px] w-16 bg-white"></span>
-              <p className="text-sm font-semibold">Projects</p>
+              <Link href="#projects-section" className="text-sm font-semibold">
+                Projects
+              </Link>
             </div>
           </div>
         </div>

@@ -4,7 +4,7 @@ import Link from "next/link";
 import { Chip } from "@nextui-org/react";
 export default function Education() {
   return (
-    <div className="mt-16">
+    <div className="mt-16" id="education-section">
       <div
         className="border-none mt-4 group transition ease-in-out rounded-md p-4 hover:bg-foreground/10 cursor-pointer max-w-[610px]"
       >
