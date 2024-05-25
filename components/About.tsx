@@ -8,10 +8,14 @@ export default function About() {
           <p>
             Experienced Software Engineer specializing in{" "}
             <span className="text-white font-semibold hover:text-secondary cursor-pointer">
-              Django
+              Python
             </span>{" "}
-            Back-end development. Skilled in crafting efficient web applications
-            through continuous learning and{" "}
+            Back-end development and{" "}
+            <span className="text-white font-semibold hover:text-secondary cursor-pointer">
+              TypeScript
+            </span>{" "}
+            Front-end development. Skilled in crafting efficient web
+            applications through continuous learning and{" "}
             <span className="text-white font-semibold hover:text-secondary cursor-pointer">
               {" "}
               problem-solving
